@@ -1,0 +1,1 @@
+docker run --rm --name share-nginx -v $(pwd):/usr/share/nginx/html:ro -d -p 7890:80  nginx
